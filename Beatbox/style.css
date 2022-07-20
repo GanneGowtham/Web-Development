@@ -1,0 +1,54 @@
+html {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShW7usACNhnT7Fgs2H_D9sC2vens2CZ3zJ0_YCMTXBcFIr2fqaC-qTix87ttAEe818xio&usqp=CAU"), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4f4nNKp6txcOPURPaNd1RS-aV18sZeMMKjb127bEDHVsBdUdnAkv7mTs6ae-yc6l78fw&usqp=CAU');
+    background-repeat: repeat;
+    background-position: 20em;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .keys {
+    display: flex;
+    flex: 200;
+    justify-content: center;
+    margin-top: 15em;
+  }
+  
+  .key {
+    border: 2px solid lightgreen;
+    border-radius: 50px 50px 50px;
+    background: linear-gradient(to right, orangered, greenyellow);;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    transition: all .07s ease;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    text-shadow: 1 1 .5rem black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: skyblue;
+    box-shadow: 0px 0px 30px greenyellow;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 50px;
+    font-family: "Georgia, 'Times New Roman', Times, serif";
+  }
+  
+  .sound {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+  }
