@@ -1,2 +1,2 @@
-# Web-Development
-Different types of websites, for different uses
+# Count-No.of-Items
+Tally Counter using HTML, CSS, Java Script
